@@ -1,0 +1,3 @@
+# Fail2ban will search every virtual server 
+logpath = /var/log/virtualmin/*access_log
+logpath = /var/log/virtualmin/*error_log

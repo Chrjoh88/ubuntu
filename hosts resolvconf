@@ -1,10 +1,12 @@
 #/etc/resolvconf/resolv.conf.d/base
 #nameserver 192.168.10.1 <-- external IP /// do not use hacky workaround
 nameserver 127.0.0.1
-nameserver 127.0.0.1
 search lan blackfyre.se
 
 #update resolvconf
 
 sudo resolvconf -u
 sudo /etc/init.d/networking restart
+
+
+virtualmin DNS change external ip ex. 85.229.X.X

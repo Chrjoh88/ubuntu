@@ -1,0 +1,1 @@
+ln -s /var/ossec/bin/ossec-logtest /var/ossec/ossec-logtest

@@ -1,4 +1,5 @@
 /etc/default/spamassassin
+# logrotation same as mail.info mail.warn
 
 ENABLED=1
 SPAM_HOME="/var/log/spamassassin"

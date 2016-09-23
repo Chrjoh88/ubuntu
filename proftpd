@@ -1,0 +1,5 @@
+retriving list 
+
+open port 49152-49153
+
+open iptables same ports

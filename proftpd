@@ -3,3 +3,7 @@ retriving list
 open port 49152-49155
 
 open iptables same ports
+
+Lås kontot till !förutom sudo konton
+DefaultRoot /home/%u/public_html !sudo
+

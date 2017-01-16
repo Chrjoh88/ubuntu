@@ -1,0 +1,4 @@
+PIDFILE=/var/run/spamd.pid
+OPTIONS="-d 127.0.0.1 -p 783 --create-prefs -x --max-children...
+ENABLED=1
+CRON=1
